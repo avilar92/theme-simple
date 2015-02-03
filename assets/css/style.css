@@ -1926,8 +1926,6 @@ object {
     max-width: 1280px;
     margin: 5em auto 1em;
     text-align: center;
-background-color: #e1e1e1;
-border: 1.5px solid black;
   }
       
   .tag-cloud h4 {
@@ -1973,4 +1971,5 @@ border: 1.5px solid black;
   .tag-cloud a:hover,
   .tag-cloud a:focus {
     background-color: rgb(55, 204, 162);
+border: 1.5px solid black;
   }
