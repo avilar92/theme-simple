@@ -76,6 +76,8 @@ template {
  */
 a {
   background: transparent;
+  text-decoration: underline;
+  border-style:dotted;
 }
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
