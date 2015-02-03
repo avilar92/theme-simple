@@ -1105,7 +1105,7 @@ a {
   -webkit-transform: translate3d(0, 0, 0);
   color: #363636;
   text-decoration: none;
-  BORDER-BOTTOM:1px dashed #FAFBFC;
+  border bottom: 1px dashed #FAFBFC;
 }
 a:hover,
 a:active,
