@@ -71,12 +71,15 @@
                     </ul>
                 </nav>
                 {% endif %}
-                {% if site.tags %}
-  <div class="tags">
-    {% for tag in site.tags %}
-      <a href="/tag/{{ tag.name }}">#{{ tag.name }}</a>
-    {% endfor %}
-  </div>
+               {% if site.tags %}
+	<div class="tag-cloud">
+		<h4>Теги:</h4>
+		<ul>
+		{% for tag in site.tags %}
+  		<li><a href="/tag/{{ tag.name }}">{{ tag.name }}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
 {% endif %}
                 <div class="site-content">
                 {% if is_home or is_tag %}
