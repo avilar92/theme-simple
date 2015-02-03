@@ -1971,5 +1971,4 @@ object {
   .tag-cloud a:hover,
   .tag-cloud a:focus {
     background-color: rgb(55, 204, 162);
-border: 1.5px solid black;
   }
