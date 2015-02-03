@@ -83,7 +83,6 @@ a {
 a:active,
 a:hover {
   outline: 0;
-  color:blue;
 }
 /* Text-level semantics
    ========================================================================== */
@@ -1105,7 +1104,6 @@ a {
   transition: all 0.1s ease-in-out;
   -webkit-transform: translate3d(0, 0, 0);
   color: #111111;
-  text-decoration: none;
 }
 a:hover,
 a:active,
